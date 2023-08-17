@@ -1,0 +1,33 @@
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: royalblue;
+  font-size: larger;
+}
+
+@media (max-width: 991px) {
+  .flex {
+    flex-direction: column;
+  }
+  .links a {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  input {
+    text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 20px;
+  }
+  .card-body h5 {
+    margin-top: 20px;
+  }
+}
